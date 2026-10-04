@@ -1,0 +1,6 @@
+theia@theiadocker-alperkorkmaz:/home/project/final_project$ python3
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new tehnology.")
+'{"emotionPredictions":[{"emotion":{"anger":0.008817677, "disgust":0.0022012687, "fear":0.005847596, "joy":0.99406165, "sadness":0.013466017}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":26, "text":"I love this new tehnology."}, "emotion":{"anger":0.008817677, "disgust":0.0022012687, "fear":0.005847596, "joy":0.99406165, "sadness":0.013466017}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}'

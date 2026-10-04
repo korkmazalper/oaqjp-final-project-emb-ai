@@ -1,0 +1,11 @@
+theia@theiadocker-alperkorkmaz:/home/project/final_project$ python3
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> emotion_detector("I am so happy I am doing this.")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'emotion_detector' is not defined
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy I am doing this.")
+{'anger': 0.0043339236, 'disgust': 0.00037549555, 'fear': 0.0034732423, 'joy': 0.9947189, 'sadness': 0.012704818, 'dominant_emotion': 'joy'}
+>>> 

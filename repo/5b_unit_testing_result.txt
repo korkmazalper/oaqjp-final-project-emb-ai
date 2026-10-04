@@ -1,0 +1,5 @@
+theia@theiadocker-alperkorkmaz:/home/project/final_project$ python3 test_emotion_detect
+ion.py 
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.637s
